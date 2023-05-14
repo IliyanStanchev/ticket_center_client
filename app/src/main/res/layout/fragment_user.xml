@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        tools:context=".views.admin.users.UserFragment">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="331dp"
+            android:layout_height="162dp"
+            app:cardBackgroundColor="#CDDC39"
+            app:cardCornerRadius="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.21">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="153dp">
+
+
+            <TextView
+                    android:id="@+id/tvMail"
+                    android:gravity="center"
+                    android:layout_width="314dp"
+                    android:layout_height="29dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.709"
+                    app:layout_constraintHorizontal_bias="0.411" />
+
+            <TextView
+                    android:id="@+id/tvUserName"
+                    android:gravity="center"
+                    android:layout_width="315dp"
+                    android:layout_height="26dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHorizontal_bias="0.437"
+                    app:layout_constraintVertical_bias="0.488" />
+
+            <TextView
+                    android:id="@+id/tvRole"
+                    android:gravity="center"
+                    android:layout_width="149dp"
+                    android:layout_height="31dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHorizontal_bias="0.043"
+                    app:layout_constraintVertical_bias="0.967" />
+
+            <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="53dp"
+                    tools:src="@mipmap/ic_user"
+                    android:id="@+id/ivIcon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.09" />
+
+            <TextView
+                    android:id="@+id/tvStatus"
+                    android:gravity="center"
+                    android:layout_width="152dp"
+                    android:layout_height="32dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.949"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.966" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

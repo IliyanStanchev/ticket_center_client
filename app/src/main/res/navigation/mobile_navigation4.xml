@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mobile_navigation4"
+        app:startDestination="@+id/nav_first">
+
+    <fragment
+            android:id="@+id/nav_first"
+            android:name="com.example.ticket_center_client.views.distributor.profile.DistributorProfileFragment"
+            android:label="Profile"
+            tools:layout="@layout/fragment_home" />
+
+    <fragment
+            android:id="@+id/nav_second"
+            android:name="com.example.ticket_center_client.views.distributor.events.DistributorEventsFragment"
+            android:label="Sell tickets"
+            tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+            android:id="@+id/nav_third"
+            android:name="com.example.ticket_center_client.views.LogoutFragment"
+            android:label="Logout"
+            tools:layout="@layout/fragment_logout" />
+</navigation>
